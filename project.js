@@ -36,15 +36,15 @@ $.ajax({
        var recipe1 = (data.hits[counter].recipe.url);
        console.log(recipe);
        
-        $("body").append("<h1>Name: " +name+ "</h1>");
-       $("body").append("<h1>calories:" +calories+ "</h1>");
-       $("body").append("<h1>recipe: " +recipe1+ "</h1>");
-       $("body").append("<h1>allergies " +allergies+"</h1>")
-         $("body").append("<h1>Diet: " +dietLabels+ "</h1>");    
-          $("body").append("<h1>image: " +image+ "</h1>");  
-           $("body").append("<h1>ingredients: " +ingredient+ "</h1>");  
-            $("body").append("<h1> recipe: " +recipe1+ "</h1>");  
-            $("body").append("<h1> Click Submit above for more recipes!</h1>");  
+        $(".santa").append("<h1>Name: " +name+ "</h1>");
+        $(".santa").append("<h1>calories:" +calories+ "</h1>");
+        $(".santa").append("<h1>recipe: " +recipe1+ "</h1>");
+        $(".santa").append("<h1>allergies " +allergies+"</h1>")
+        $(".santa").append("<h1>Diet: " +dietLabels+ "</h1>");    
+        $(".josh").attr("src", image);  
+        $(".santa").append("<h1>ingredients: " +ingredient+ "</h1>");  
+        $(".santa").append("<h1> recipe: " +recipe1+ "</h1>");  
+        $(".santa").append("<h1> Click Submit above for more recipes!</h1>");  
       //ingredient1
    }
         //    img(data.hits[counter].recipe.image);
